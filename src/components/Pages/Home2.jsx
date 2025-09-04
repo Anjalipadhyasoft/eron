@@ -13,6 +13,9 @@ import Blog1 from './../Elements/Blog1';
 import Statistics1 from './../Elements/Statistics1';
 import Testimonials2 from './../Elements/Testimonials2';
 
+
+
+
 class Home2 extends React.Component {
     componentDidMount() {
         function loadScript(src) {
