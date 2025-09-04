@@ -29,15 +29,15 @@ class Navigation extends React.Component {
             <>
                 <ul className="nav navbar-nav">
                     <li className="active">
-                        <NavLink to={""}>Home</NavLink>
-                        <ul className="sub-menu">
-                            <li><NavLink to={"/"}>Home-1</NavLink></li>
-                            <li><NavLink to={"/home-2"}>Home-2</NavLink></li>
-                            <li><NavLink to={"/home-3"}>Home-3</NavLink></li>
-                            <li><NavLink to={"/home-4"}>Home-4</NavLink></li>
-                            <li><NavLink to={"/home-5"}>Home-5</NavLink></li>
-                            <li><NavLink to={"/home-6"}>Home-6</NavLink></li>
-                        </ul>
+                        <NavLink to={"/home-2"}>Home</NavLink>
+                        {/* <ul className="sub-menu"> */}
+                            {/* <li><NavLink to={"/"}>Home-1</NavLink></li> */}
+                            {/* <li><NavLink to={"/home-2"}>Home-2</NavLink></li> */}
+                            {/* <li><NavLink to={"/home-3"}>Home-3</NavLink></li> */}
+                            {/* <li><NavLink to={"/home-4"}>Home-4</NavLink></li> */}
+                            {/* <li><NavLink to={"/home-5"}>Home-5</NavLink></li> */}
+                            {/* <li><NavLink to={"/home-6"}>Home-6</NavLink></li> */}
+                        {/* </ul> */}
                     </li>
                     <li><NavLink to={""}>About us</NavLink>
                         <ul className="sub-menu">
